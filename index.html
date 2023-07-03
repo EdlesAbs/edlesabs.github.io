@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>les prof d'ED</title>
+</head>
+<body>
+
+    <h1>Voici un site web qui calcule automatiquement le nombre de cours que vos profs n'était pas là !</h1>
+
+    <div class="userLogin">
+        <label>Nom d'utilisateur : <input type="text" id="name"></label>
+        <label>mot de passe      : <input type="password" id="password"></label>
+   
+        <input type="button" id="btnvalide" value="valider">
+    </div>
+    
+    <p></p>
+
+    <div class="table">
+        <table id="tableContent">
+            <tr>
+                <th>Classement</th>
+                <th>Prof</th>
+                <th>Présent</th>
+                <th>Absent</th>
+                <th>Total</th>
+                <th>Ratio de présence</th>
+            </tr>
+        </table>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
