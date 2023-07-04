@@ -43,3 +43,8 @@ p {
     color: red;
     margin: 0 10px 10px 10px;
 }
+
+.table {
+    padding: 10px;
+    overflow-x: auto;
+}
