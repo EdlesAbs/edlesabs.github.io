@@ -143,6 +143,19 @@ async function creatTable(arrTable)
         narr.ras = (narr.pres / narr.tot)*100;
     }
     
+    for (let i = 0; i < arr.length; i++)
+    {
+        if (arr[i].name == ' ')
+            arr.splice(i, 1);
+    } 
+    
+    arr.sort((a, b) => {
+        if (a.tot > b.tot)
+            return -1;
+        if (a.tot < b.tot)
+            return 1;
+    });
+
     arr.sort((a, b) => {
         if (a.ras < b.ras)
             return -1;
