@@ -35,10 +35,7 @@ td, th {
     display: block;  
     margin: 10px;
     overflow-x: auto;
-    margin: 0 auto 0 auto;
 }
-
-
 
 input[type="button"]:hover {
     scale: 30px 30px;
